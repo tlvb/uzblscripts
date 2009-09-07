@@ -1,14 +1,4 @@
-/* This is the basic linkfollowing script.
- * Its pretty stable, only using numbers to navigate.
- *
- * TODO: Some pages mess around a lot with the zIndex which
- * lets some hints in the background.
- * TODO: Some positions are not calculated correctly (mostly
- * because of uber-fancy-designed-webpages. Basic HTML and CSS
- * works good
- * TODO: Still some links can't be followed/unexpected things
- * happen. Blame some freaky webdesigners ;)
- */
+// Small hackish change to follow_Numbers.js in order to, instead of numbers combinations, show and respond to characters on the home row of a dvorak keyboard (aoeuidhtns)
 
 //Just some shortcuts and globals
 var uzblid = 'uzbl_link_hint';
